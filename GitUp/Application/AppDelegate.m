@@ -354,11 +354,11 @@
   if (![[NSUserDefaults standardUserDefaults] boolForKey:kUserDefaultsKey_DisableSparkle]) {
     _updater = [SUUpdater sharedUpdater];
     _updater.delegate = self;
-    _updater.automaticallyChecksForUpdates = NO;
+    _updater.automaticallyChecksForUpdates = YES;
     _updater.sendsSystemProfile = NO;
     _updater.automaticallyDownloadsUpdates = YES;
 
-    _manualCheck = NO;
+    _manualCheck = YES;
     [_updater checkForUpdatesInBackground];
   }
 #endif
