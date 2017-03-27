@@ -1205,12 +1205,12 @@ UI design by Wayne Fan</string>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     </box>
                     <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" id="TgX-Ty-AUa">
-                        <rect key="frame" x="20" y="20" width="12" height="12"/>
+                        <rect key="frame" x="20" y="16" width="25" height="20"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="icon_twitter" id="4p0-VD-kVJ"/>
                     </imageView>
                     <customView misplaced="YES" id="5ht-7L-7AO" customClass="GILinkButton">
-                        <rect key="frame" x="35" y="13" width="102" height="20"/>
+                        <rect key="frame" x="45" y="14" width="102" height="20"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="color" keyPath="linkColor">
@@ -1226,12 +1226,12 @@ UI design by Wayne Fan</string>
                         </connections>
                     </customView>
                     <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" id="3gN-gU-6Rk">
-                        <rect key="frame" x="170" y="20" width="12" height="12"/>
+                        <rect key="frame" x="170" y="16" width="21" height="20"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="icon_forum" id="3Om-2j-ETN"/>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="icon_forum" id="3Om-2j-ETN"/>
                     </imageView>
                     <customView misplaced="YES" id="ozw-os-Nc4" customClass="GILinkButton">
-                        <rect key="frame" x="185" y="13" width="75" height="20"/>
+                        <rect key="frame" x="194" y="14" width="75" height="20"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="color" keyPath="linkColor">
@@ -1255,10 +1255,10 @@ UI design by Wayne Fan</string>
     <resources>
         <image name="NSApplicationIcon" width="128" height="128"/>
         <image name="icon_advanced" width="32" height="32"/>
-        <image name="icon_forum" width="12" height="12"/>
+        <image name="icon_forum" width="25" height="24"/>
         <image name="icon_general" width="32" height="32"/>
         <image name="icon_nav_closetip_dark" width="12" height="12"/>
         <image name="icon_nav_closetip_dark_pressed" width="12" height="12"/>
-        <image name="icon_twitter" width="15" height="12"/>
+        <image name="icon_twitter" width="29" height="24"/>
     </resources>
 </document>
